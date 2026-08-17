@@ -1,3 +1,4 @@
+package Modifiers;
 public class StaticModifier {
     static int a = 10; // Static variable
     static int b; // Static variable

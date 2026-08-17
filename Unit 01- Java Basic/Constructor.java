@@ -1,4 +1,4 @@
-public class Demo {
+public class Constructor {
     static String name = "Ajay"; // static variable can be accessed without creating object of class
     int age = 20; // non static variable can be accessed only by creating object of class
     int id;
@@ -16,20 +16,20 @@ public class Demo {
      */
 
     // constructor with parameters
-    Demo(int i, int RollNo, String Email) {
+    Constructor(int i, int RollNo, String Email) {
         this.id = i;
         this.RollNo = RollNo;
         this.Email = Email;
     }
     //copy constructor
-    Demo(Demo c) {
+    Constructor(Constructor c) {
         this.id = c.id;
         this.RollNo = c.RollNo;
         this.Email = c.Email;
     }
 
     //constructor overloading
-    Demo(int i, int RollNo) {
+    Constructor(int i, int RollNo) {
         this.id = i;
         this.RollNo = RollNo;
     }
@@ -54,12 +54,12 @@ public class Demo {
         obj1.Details(); */
 
         //copy constructor
-        Demo obj1 = new Demo(1, 100045, "xyz@gmail.com");
-        Demo obj2 = new Demo(obj1);
+        Constructor obj1 = new Constructor(1, 100045, "xyz@gmail.com");
+        Constructor obj2 = new Constructor(obj1);
         obj2.Details();
 
         //constructor overloading
-        Demo obj3 = new Demo(2, 100046);
+        Constructor obj3 = new Constructor(2, 100046);
         obj3.Details();
 
     }

@@ -1,3 +1,4 @@
+package Modifiers;
 //example of private access modifier for inner class
 /* class Outer {
 

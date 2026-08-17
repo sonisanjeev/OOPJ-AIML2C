@@ -1,3 +1,4 @@
+package Modifiers;
 class OuterClass{
     private static String name="Ajay";
 
